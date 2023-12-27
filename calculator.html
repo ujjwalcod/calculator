@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="cal.css">
+  <title>calculator</title>
+</head>
+<body>
+  <div id="calculator">
+    <input type="text"id="display" readonly>
+    <div id="buttonconta">
+    <button class="button"onclick="val='';document.querySelector('#display').value = val;">c</button>
+
+    <button class="button" onclick="val+=1;document.querySelector('#display').value = val;">1</button>
+
+    <button class="button"onclick="val+=2;document.querySelector
+    ('#display').value = val;">2</button>
+
+    <button class="button"onclick="val=val+'+';document.querySelector('#display').value = val;">+</button>
+
+    <button class="button"onclick="val+=3;document.querySelector('#display').value = val;">3</button>
+
+    <button class="button"onclick="val+=4;document.querySelector('#display').value = val;">4</button>
+    
+    <button class="button"onclick="val =val+'-';document.querySelector('#display').value = val;">-</button>
+
+    <button class="button"onclick="val+=5;document.querySelector('#display').value = val;">5</button>
+
+    <button class="button"onclick="val+=6;document.querySelector('#display').value = val;">6</button>
+
+    <button class="button"onclick="val=val+'*';document.querySelector('#display').value = val;">*</button>
+
+    <button class="button"onclick="val+=7;document.querySelector('#display').value = val;">7</button>
+
+    <button class="button"onclick="val+=8;document.querySelector('#display').value = val;">8</button>
+
+    <button class="button"onclick="val=val+'/';document.querySelector('#display').value = val;">/</button>
+
+
+    <button class="button"onclick="let result =eval(val);val=result;document.querySelector('#display').value = val;">=</button>
+
+
+    <button class="button"onclick="val+=9;document.querySelector('#display').value = val;">9</button>
+    <button class="button"onclick="val+=0;document.querySelector('#display').value = val;">0</button>
+    <button class="button">.</button>
+    
+    </div>
+    
+
+  </div>
+  <script src="calc.js">
+
+  </script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-https://ujjwalcod.github.io/calculator/
+https://ujjwalcod.github.io/calculator/calculator 
